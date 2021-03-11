@@ -1,2 +1,1 @@
-# JavaScript
- Repositório dedicado a JavaScript
+# 30 Days of JavaScript
