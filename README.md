@@ -1,1 +1,1 @@
-# 30 Days of JavaScript
+# Estudos JavaScript
