@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usando Fetch Api com JavaScript</title>
+    <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+    <h1>Star Wars Api</h1>
+    <div>
+        <h2>Search All of Star Wars</h2>
+        <select name="typesearch" id="categories">
+            <option value="">Options</option>
+            <option value="films">Films</option>
+            <option value="people">Peoples</option>
+            <option value="starships">StarShips</option>
+            <option value="vehicles">Vehicles</option>
+            <option value="species">Species</option>
+            <option value="planets">Planets</option>
+        </select>
+
+        <input type="search" name="searchfield" id="searchfield" onchange="search()">
+        &nbsp;
+        <button id="clearButton" type="button">Clear</button>
+
+        <div class="result" id="result">
+            
+        </div>
+
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
